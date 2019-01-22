@@ -1,0 +1,211 @@
+/* Global-------------------------------------------------------------------> */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+hr {
+  border: none;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+/* Button */
+.btn {
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 100px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #8749D1;
+  transition: 500ms;
+  color: white;
+}
+/* Index ------------------------------------------------------------------->*/
+/* Navbar ----------------------------->*/
+nav {
+  height: 50px;
+  background-color: #8749D1;
+  font-size: .9em;
+  /* position: fixed; */
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 16px;
+  float: left;
+}
+
+nav ul li {
+  display: inline;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  color: white;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 2px white;
+  transition: 500ms;
+  color: white;
+}
+/* Search bar */
+input {
+  margin-left: 20px;
+  margin-top: 12.5px;
+  border-radius: 25px;
+  width: 250px;
+  height: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+nav i {
+  color: white;
+}
+
+.flt-right-src {
+  float: right;
+}
+/* Showcase ----------------------------->*/
+.showcase {
+  height: 300px;
+}
+
+.showcase .left {
+  float: left;
+  text-align: center;
+  width: 40%;
+  height: 100%;
+  background-color: #8749D1;
+}
+
+.left h1 {
+  font-size: 6em;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 25px;
+  cursor: default;
+}
+
+.showcase .right {
+  float: right;
+  width: 60%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/showcase.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right p {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0;
+  color: white;
+  font-size: 3.3em;
+}
+
+.right p:nth-of-type(2) {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Top Sales --------------------------------------------------------------->*/
+.top-sls {
+  margin-top: 50px;
+}
+/* Grid and grid Item */
+.grid-item img {
+  width: 400px;
+  height: 300px;
+  margin: 20px 0;
+}
+
+.grid-item p {
+  margin-bottom: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-top: 50px;
+}
+
+/* Footer -----------------------------------------------------------------------> */
+footer {
+  height: 250px;
+  background-color: #8749D1;
+  margin-top: 50px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footer-item {
+  margin-top: 50px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+/* Products Review ------------------------------------------------------------------->*/
+.product-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+}
+
+.left-1 img {
+  width: 400px;
+  height: 300px;
+}
+
+.right-1 p {
+  margin-bottom: 30px;
+}
+
+.item-list {
+  margin-top: 50px;
+}
+
+.item-list h2 {
+  margin-bottom: 20px;
+}

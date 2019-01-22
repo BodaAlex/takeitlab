@@ -1,0 +1,117 @@
+/* Global --------------------------------------------------------------------->*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn-left {
+  margin-top: 50px;
+  border: 1px solid white;
+  width: 100px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-left:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgba(102,55,158,1);
+  transition: 300ms;
+}
+
+.btn-right {
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 100px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-left: 82.5%;
+}
+
+.btn-right:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #e5e5e5;
+  /* color: white; */
+  transition: 300ms;
+}
+
+/* Landing -------------------------------------------------------------------->*/
+
+/* Left Side */
+#left {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  color: white;
+  background-color: rgba(102,55,158,1);
+}
+
+#left h1 {
+  padding-top: 40%;
+  font-size: 6em;
+  text-transform: uppercase;
+}
+
+#slogan {
+  font-size: 2em;
+  line-height: 50px;
+}
+
+#left p {
+  line-height: 40px;
+}
+
+#left p:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+
+/* Right Side */
+#right {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  text-align: right;
+}
+
+#right h1:first-of-type {
+  padding-top: 40%;
+  font-size: 6em;
+  text-transform: uppercase;
+}
+
+#right p:first-of-type {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#right p {
+  line-height: 40px;
+}
+
+#right p:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+
+/* Logo */
+#logo {
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
